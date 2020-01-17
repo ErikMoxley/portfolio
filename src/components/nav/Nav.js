@@ -20,10 +20,10 @@ const Navbar = props => {
 
   return (
     <>
-      <NavBar style={barAnimation}>
+      <NavBar>
         <FlexContainer>
           <Brand />
-          <NavLinks style={linkAnimation}>
+          <NavLinks>
             <a href="/">Home</a>
             <a href="/about">About</a>
           </NavLinks>
