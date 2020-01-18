@@ -7,6 +7,10 @@
   text-transform: uppercase;
 }
 
+.navbrand {
+  text-transform: none;
+}
+
 .navbar__link {
   margin: 1em;
   font-size: 2em;

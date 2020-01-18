@@ -27,8 +27,10 @@ const Styles = styled.div`
 
 export const NavigationBar = () => (
   <Styles>
-    <Navbar expand="lg">
-      <Navbar.Brand href="/">E.M.</Navbar.Brand>
+    <Navbar expand="md">
+      <Navbar.Brand className="navbrand" href="/">
+        E.M.
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
@@ -47,7 +49,29 @@ export const NavigationBar = () => (
           >
             About
           </NavLink>
+          <NavLink
+            to="/projects"
+            className="p-2"
+            activeClassName="navbar__link--active"
+          >
+            Projects
+          </NavLink>
+          <NavLink
+            to="/contact"
+            className="p-2"
+            activeClassName="navbar__link--active"
+          >
+            Contact
+          </NavLink>
         </Nav>
+        <a
+          href="https://erikmoxley.wordpress.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-2"
+        >
+          WordPress
+        </a>
       </Navbar.Collapse>
     </Navbar>
   </Styles>

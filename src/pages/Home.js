@@ -1,17 +1,63 @@
 import React from "react";
 import styled from "styled-components";
-const GridWrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-  margin-top: 1em;
-  margin-left: 1em;
-  margin-right: 6em;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: minmax(25px, auto);
-`;
+import { Jumbotron, Container, Button } from "reactstrap";
+import Fade from "react-reveal/Fade";
+import { NavLink } from "react-router-dom";
+import Typist from "react-typist";
+import "../styles/Home.css";
+
+const GridWrapper = styled.div``;
 export const Home = props => (
   <GridWrapper>
-    <p>This is a paragraph and I am writing on the home page</p>
-    <p>This is another paragraph, hi hey hello whatsup yo</p>
+    <div id="top">
+      <Jumbotron className="jumbotron" fluid>
+        <Container className="container" fluid>
+          <Fade left>
+            <div className="Typist">
+              <Typist className="hero" cursor={{ hideWhenDone: true }}>
+                Hello, I'm
+                <Typist.Delay ms={100} />
+                <span className="eMox">
+                  Eric K.
+                  <Typist.Backspace count={4} delay={1000} />
+                  <Typist.Delay ms={750} />k Moxley.
+                  <Typist.Delay ms={6590} />
+                </span>
+              </Typist>
+            </div>
+          </Fade>
+          <Fade right>
+            <div className="Typist">
+              <Typist className="hero" cursor={{ hideWhenDone: true }}>
+                Former Store Manager.
+                <Typist.Delay ms={1000} />
+                <Typist.Backspace count={21} delay={500} />
+                Aspiring Software Engineer.
+                <Typist.Delay ms={500} />
+                <Typist.Backspace count={18} delay={500} />
+                <Typist.Delay ms={1000} />
+                Web Developer.
+              </Typist>
+            </div>
+          </Fade>
+          <p className="lead">
+            <Fade bottom big>
+              <NavLink
+                activeClass="active"
+                to="/about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={400}
+              >
+                <Button color="secondary" size="md">
+                  Find Out More
+                </Button>
+              </NavLink>
+            </Fade>
+          </p>
+        </Container>
+      </Jumbotron>
+    </div>
   </GridWrapper>
 );
