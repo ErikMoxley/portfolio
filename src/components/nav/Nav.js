@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
-import "./Nav.css";
+import "../../styles/Nav.css";
 
 const Styles = styled.div`
   .navbar {

@@ -41,7 +41,7 @@ export const Home = props => (
             </div>
           </Fade>
           <p className="lead">
-            <Fade bottom big>
+            <Fade bottom>
               <NavLink
                 activeClass="active"
                 to="/about"

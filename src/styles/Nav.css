@@ -2,9 +2,10 @@
   display: flex;
   justify-content: right;
   align-items: right;
-  border-radius: 10px;
-  background-color: #eceff1;
+  border-radius: 8px;
+  background-color: #00b7ff;
   text-transform: uppercase;
+  text-decoration: none !important;
 }
 
 .navbrand {
@@ -16,7 +17,7 @@
   font-size: 2em;
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
   letter-spacing: 0.3em;
   text-indent: 0.3em;
   color: #181818;
@@ -28,17 +29,17 @@
 }
 
 .navbar__link--active {
-  border-bottom: 1px solid #9b9b9b;
+  border-bottom: 1px solid #ffffff;
   transition: ease-in 0.5 ms;
-  color: #2ab9d8;
+  color: #00b7ff;
   font-size: 14px;
   letter-spacing: 0.3px;
   text-transform: uppercase;
-  text-decoration: none;
+  text-decoration: none !important;
   -webkit-transition: all ease-in 133ms;
   -moz-transition: all ease-in 133ms;
   -o-transition: all ease-in 133ms;
   -ms-transition: all ease-in 133ms;
   transition: all ease-in 133ms;
-  border-bottom: 1px solid #2ab9d8;
+  border-bottom: 1px solid #00b7ff;
 }
