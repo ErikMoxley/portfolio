@@ -1,9 +1,10 @@
 .navbar {
   display: flex;
-  justify-content: left;
-  align-items: left;
-  border-radius: 20px;
+  justify-content: right;
+  align-items: right;
+  border-radius: 10px;
   background-color: #eceff1;
+  text-transform: uppercase;
 }
 
 .navbar__link {
@@ -23,5 +24,17 @@
 }
 
 .navbar__link--active {
-  border-bottom: 3px solid #9b9b9b;
+  border-bottom: 1px solid #9b9b9b;
+  transition: ease-in 0.5 ms;
+  color: #2ab9d8;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  -webkit-transition: all ease-in 133ms;
+  -moz-transition: all ease-in 133ms;
+  -o-transition: all ease-in 133ms;
+  -ms-transition: all ease-in 133ms;
+  transition: all ease-in 133ms;
+  border-bottom: 1px solid #2ab9d8;
 }
