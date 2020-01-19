@@ -37,11 +37,11 @@ export const About = () => (
         resume is filled with years of management and leadership experience in a
         Pharmacy and Retail setting. Current languages, tools and technologies I
         use are HTML5, CSS3, Sass, Javascript, Bootstrap, GatsbyJS, ReactJS,
-        Git, GitHub, WordPress.com with some exposure to Jquery, NodeJS,
-        MongoDB, some backend development. I currently deploy my web projects
-        with gh-pages and/or Netlify. My next steps are to explore uses of
-        different API's and become well rounded in full-stack development in the
-        near future.
+        Git, GitHub, WordPress.com, Command Line/Powershell with some exposure
+        to Jquery, NodeJS, MongoDB, some backend development. I currently deploy
+        my web projects with gh-pages and/or Netlify. My next steps are to
+        explore uses of different API's and become well rounded in full-stack
+        development in the near future.
       </p>
     </Fade>
     <Fade bottom>
