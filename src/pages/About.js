@@ -1,22 +1,62 @@
 import React from "react";
 import styled from "styled-components";
+import { Button } from "reactstrap";
+import Fade from "react-reveal/Fade";
+import { NavLink } from "react-router-dom";
+import er from "../assets/er.jpg";
+import resume from "../assets/Resume2020.pdf";
+import "../styles/About.css";
+
 const GridWrapper = styled.div`
-  display: grid;
-  grid-gap: 10px;
-  margin-top: 1em;
-  margin-left: 1em;
-  margin-right: 6em;
-  grid-template-columns: repeat(2, 1fr);
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: -1em;
+  grid-template-columns: repeat(1, 1fr);
   grid-auto-rows: minmax(25px, auto);
+  padding-bottom: 2em;
 `;
 export const About = () => (
-  <GridWrapper>
-    <h2>About Page</h2>
-    <p>
-      State at ceiling lay on arms while you're using the keyboard so this human
-      feeds me.
-    </p>
-    <p>I am a kitty cat, sup, feed me, no cares in the world</p>
-    <p>Meow meow, I tell my human purr for no reason but to chase after</p>
+  <GridWrapper className="gridWrap">
+    <Fade left>
+      <h2>About</h2>
+    </Fade>
+    <Fade top>
+      <p className="aboutMe">
+        <img className="er" src={er} alt="" align="middle" />
+        Hello, my name is Erik and I wish to make positive impacts in people's
+        lives. I currently live in Lowell, Massachusetts. Born in Gloucester, MA
+        near the capes. My hobbies and passions include technology, gaming,
+        fantasy sports, dining out, watching movies in theaters and helping
+        people. My blogs will focus on these topics and will be located through
+        WordPress.
+      </p>
+      <p className="aboutMe">
+        I want to thank you for joining me as I learn and work towards becoming
+        a developer in the near future and hopefully an engineer later on. My
+        resume is filled with years of management and leadership experience in a
+        Pharmacy and Retail setting. Current languages, tools and technologies I
+        use are HTML5, CSS3, Sass, Javascript, Bootstrap, GatsbyJS, ReactJS,
+        Git, GitHub with some exposure to jquery, NodeJS, and MongoDB. I
+        currently deploy my web projects with gh-pages and/or Netlify. My next
+        steps are to explore uses of different API's.
+      </p>
+    </Fade>
+    <Fade bottom>
+      <NavLink
+        activeClass="active"
+        to={resume}
+        target="_blank"
+        rel="noopener noreferrer"
+        spy={true}
+        smooth={true}
+        offset={-70}
+        duration={400}
+      >
+        <Button className="resumeButton" color="secondary" size="md">
+          Resume
+        </Button>
+      </NavLink>
+    </Fade>
   </GridWrapper>
 );

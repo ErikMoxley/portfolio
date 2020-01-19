@@ -1,0 +1,18 @@
+.er {
+  display: block;
+  margin-left: auto;
+  margin-right: 1rem;
+  width: 50%;
+  height: auto;
+  width: 150px;
+  float: left;
+  opacity: 0.85;
+}
+.resumeButton {
+  margin-left: auto;
+}
+
+.aboutMe {
+  font-size: 14px;
+  font-family: Calibri, sans-serif;
+}

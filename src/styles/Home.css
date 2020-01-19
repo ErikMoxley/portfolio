@@ -1,6 +1,9 @@
-/* body {
-  background-color: #181818 !important;
-} */
+@media screen and (min-width: 70em) {
+  .gridWrap {
+    margin-left: 10em !important;
+    margin-right: 10em !important;
+  }
+}
 
 .container {
   max-width: 1140px;
@@ -10,10 +13,10 @@
 .hero {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 0.4;
+  line-height: 0;
   margin-bottom: 3.2rem;
   margin-top: 3.2rem;
-  padding-left: 3rem;
+  padding-left: 1rem;
   text-align: left;
   visibility: visible;
   opacity: 1;
@@ -23,7 +26,7 @@
 }
 
 .findOutButton {
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 
 .lead {
@@ -32,10 +35,10 @@
 
 @media screen and (max-width: 75em) {
   .hero {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .container > .react-reveal {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 

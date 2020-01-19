@@ -29,8 +29,8 @@ const Footer = () => {
               Erik Moxley
             </h5>
             <p>
-              "In the expression of grief lies recovery from grief itself." -
-              Christopher Priest
+              "In the expression of grief lies recovery from grief itself."
+              <br />- Christopher Priest
             </p>
           </MDBCol>
           <MDBCol className="footer-content1" md="3">

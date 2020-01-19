@@ -8,11 +8,11 @@ import "../styles/Home.css";
 
 const GridWrapper = styled.div``;
 export const Home = props => (
-  <GridWrapper>
+  <GridWrapper className="gridWrap">
     <div id="top">
       <Jumbotron className="jumbotron" fluid>
         <Container className="container" fluid>
-          <Fade left>
+          <Fade top big>
             <div className="Typist">
               <Typist className="hero" cursor={{ hideWhenDone: true }}>
                 Hello, I'm
@@ -26,7 +26,7 @@ export const Home = props => (
               </Typist>
             </div>
           </Fade>
-          <Fade right>
+          <Fade left big>
             <div className="Typist">
               <Typist className="hero" cursor={{ hideWhenDone: true }}>
                 Former Store Manager.
