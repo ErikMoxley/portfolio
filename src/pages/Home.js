@@ -50,7 +50,7 @@ export const Home = props => (
                 offset={-70}
                 duration={400}
               >
-                <Button color="secondary" size="md">
+                <Button className="findOutButton" color="secondary" size="md">
                   Find Out More
                 </Button>
               </NavLink>

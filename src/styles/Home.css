@@ -8,17 +8,22 @@
 }
 
 .hero {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 0.4;
   margin-bottom: 3.2rem;
   margin-top: 3.2rem;
+  padding-left: 3rem;
   text-align: left;
   visibility: visible;
   opacity: 1;
   transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   transition: opacity 1s cubic-bezier(0.5, 0, 0, 1) 0.5s,
     transform 1s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+}
+
+.findOutButton {
+  margin-left: 3rem;
 }
 
 .lead {
@@ -58,15 +63,15 @@
   padding-left: 1rem;
 }
 .jumbotron {
-  min-height: 80vh;
-  height: 80vh;
+  min-height: 50vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   border-bottom: 0;
   font-weight: 400;
   color: #000000ad;
   padding: 0;
-  margin-bottom: 0 !important;
+  margin-bottom: -10px !important;
   top: 0;
   left: 0;
   bottom: 0;
