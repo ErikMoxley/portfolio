@@ -7,6 +7,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 30em) {
+  .gridWrap {
+    margin-left: 3em !important;
+  }
+}
+
 .hovereffect {
   width: 250px;
   height: 200px;

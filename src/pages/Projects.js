@@ -7,10 +7,10 @@ import Fade from "react-reveal/Fade";
 
 const GridWrapper = styled.div`
   display: grid;
-  grid-gap: 15px;
+  grid-gap: 10px;
   margin-top: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
   margin-bottom: -1em;
   padding-bottom: 2em;
   grid-template-columns: repeat(1, 1fr);
