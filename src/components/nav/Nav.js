@@ -59,12 +59,15 @@ export default class NavigationBar extends React.Component {
           }}
         >
           <header>
-            <Navbar className="navigation__navbar" expand="md">
+            <Navbar variant="dark" className="navigation__navbar" expand="md">
               <Navbar.Brand className="navBrand" href="/">
                 E.M.
               </Navbar.Brand>
 
-              <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+              <NavbarToggler
+                class="navbar navbar-dark bg-dark"
+                onClick={this.toggleNavbar}
+              />
 
               <Collapse isOpen={!this.state.collapsed} navbar>
                 <Nav className="ml-auto">

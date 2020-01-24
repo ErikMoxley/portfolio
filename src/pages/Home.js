@@ -13,7 +13,7 @@ const GridWrapper = styled.div`
   margin-bottom: -1em;
 `;
 export const Home = props => (
-  <GridWrapper className="gridWrap">
+  <GridWrapper className="gridWrap-Home">
     <div id="top">
       <Jumbotron className="jumbotron" fluid>
         <Container className="container" fluid>

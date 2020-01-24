@@ -7,8 +7,14 @@
 
 @media screen and (max-width: 40em) {
   .gridWrap {
-    margin-left: 3em !important;
-    margin-right: 3em !important;
+    margin-left: 4em !important;
+    margin-right: 4em !important;
+  }
+}
+@media screen and (max-width: 40em) {
+  .gridWrap-Home {
+    margin-left: 0em !important;
+    margin-right: 0em !important;
   }
 }
 
@@ -62,10 +68,10 @@
   }
 }
 
-@media screen and (max-width: 35em) {
+@media screen and (max-width: 40em) {
   .hero {
-    font-size: 2rem;
-    line-height: 1;
+    font-size: 1rem;
+    line-height: 0;
     margin-top: 0rem;
   }
 }
@@ -75,7 +81,7 @@
   background-clip: text;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
-  padding-left: 1rem;
+  padding-left: 0.4em;
 }
 .jumbotron {
   min-height: 50vh;
