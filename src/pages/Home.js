@@ -6,7 +6,12 @@ import { NavLink } from "react-router-dom";
 import Typist from "react-typist";
 import "../styles/Home.css";
 
-const GridWrapper = styled.div``;
+const GridWrapper = styled.div`
+  margin-top: 2em;
+  margin-left: 10em;
+  margin-right: 0em;
+  margin-bottom: -1em;
+`;
 export const Home = props => (
   <GridWrapper className="gridWrap">
     <div id="top">

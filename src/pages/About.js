@@ -9,8 +9,8 @@ import "../styles/About.css";
 
 const GridWrapper = styled.div`
   margin-top: 2em;
-  margin-left: 2em;
-  margin-right: 2em;
+  margin-left: 10em;
+  margin-right: 10em;
   margin-bottom: -1em;
   grid-template-columns: repeat(1, 1fr);
   grid-auto-rows: minmax(25px, auto);

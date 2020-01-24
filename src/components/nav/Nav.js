@@ -65,6 +65,7 @@ export default class NavigationBar extends React.Component {
               </Navbar.Brand>
 
               <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+
               <Collapse isOpen={!this.state.collapsed} navbar>
                 <Nav className="ml-auto">
                   <NavLink

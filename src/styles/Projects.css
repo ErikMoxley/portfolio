@@ -7,15 +7,9 @@
   width: 100%;
 }
 
-@media screen and (max-width: 30em) {
-  .gridWrap {
-    margin-left: 5em !important;
-  }
-}
-
 .hovereffect {
-  width: 250px;
-  height: 200px;
+  width: 270px;
+  height: 250px;
   float: left;
   overflow: hidden;
   position: relative;
@@ -24,8 +18,8 @@
 }
 
 .hovereffect .overlay {
-  width: 250px;
-  height: 200px;
+  width: 270px;
+  height: 250px;
   position: absolute;
   overflow: hidden;
   top: 0;
