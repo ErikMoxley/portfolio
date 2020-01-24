@@ -21,7 +21,7 @@ export const Home = props => (
                   Eric K.
                   <Typist.Backspace count={4} delay={1000} />
                   <Typist.Delay ms={750} />k Moxley.
-                  <Typist.Delay ms={6590} />
+                  <Typist.Delay ms={9900} />
                 </span>
               </Typist>
             </div>
@@ -32,11 +32,15 @@ export const Home = props => (
                 Former Store Manager.
                 <Typist.Delay ms={1000} />
                 <Typist.Backspace count={21} delay={500} />
-                Aspiring Software Engineer.
+                Aspiring Web Developer.
                 <Typist.Delay ms={500} />
-                <Typist.Backspace count={18} delay={500} />
+                <Typist.Backspace count={14} delay={500} />
                 <Typist.Delay ms={1000} />
-                Web Developer.
+                Software Developer.
+                <Typist.Delay ms={500} />
+                <Typist.Backspace count={10} delay={500} />
+                <Typist.Delay ms={1000} />
+                Engineer.
               </Typist>
             </div>
           </Fade>

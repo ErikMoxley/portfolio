@@ -1,8 +1,10 @@
 import React from "react";
-import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import "../../styles/Nav.css";
+import { Nav, Navbar } from "react-bootstrap";
+import { Collapse, NavbarToggler } from "reactstrap";
+import OutsideClickHandler from "react-outside-click-handler";
 
 const Styles = styled.div`
   .navbar {
@@ -25,54 +27,96 @@ const Styles = styled.div`
   }
 `;
 
-export const NavigationBar = () => (
-  <Styles>
-    <Navbar expand="md">
-      <Navbar.Brand className="navBrand" href="/">
-        E.M.
-      </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto">
-          <NavLink
-            to="/"
-            exact
-            className="p-2"
-            activeClassName="navbar__link--active"
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/about"
-            className="p-2"
-            activeClassName="navbar__link--active"
-          >
-            About
-          </NavLink>
-          <NavLink
-            to="/projects"
-            className="p-2"
-            activeClassName="navbar__link--active"
-          >
-            Projects
-          </NavLink>
-          <NavLink
-            to="/contact"
-            className="p-2"
-            activeClassName="navbar__link--active"
-          >
-            Contact
-          </NavLink>
-        </Nav>
-        <a
-          href="https://erikmoxley.wordpress.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-2"
+export default class NavigationBar extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.toggleNavbar = this.toggleNavbar.bind(this);
+    this.closeNavbar = this.closeNavbar.bind(this);
+    this.state = {
+      collapsed: true
+    };
+  }
+
+  toggleNavbar() {
+    this.setState({
+      collapsed: !this.state.collapsed
+    });
+  }
+
+  closeNavbar() {
+    if (this.state.collapsed !== true) {
+      this.toggleNavbar();
+    }
+  }
+
+  render() {
+    return (
+      <Styles>
+        <OutsideClickHandler
+          onOutsideClick={() => {
+            this.closeNavbar();
+          }}
         >
-          WordPress
-        </a>
-      </Navbar.Collapse>
-    </Navbar>
-  </Styles>
-);
+          <header>
+            <Navbar className="navigation__navbar" expand="md">
+              <Navbar.Brand className="navBrand" href="/">
+                E.M.
+              </Navbar.Brand>
+
+              <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
+              <Collapse isOpen={!this.state.collapsed} navbar>
+                <Nav className="ml-auto">
+                  <NavLink
+                    onClick={this.closeNavbar}
+                    to="/"
+                    exact
+                    className="p-2"
+                    activeClassName="navbar__link--active"
+                  >
+                    Home
+                  </NavLink>
+                  <NavLink
+                    onClick={this.closeNavbar}
+                    to="/about"
+                    className="p-2"
+                    activeClassName="navbar__link--active"
+                  >
+                    About
+                  </NavLink>
+                  <NavLink
+                    onClick={this.closeNavbar}
+                    to="/projects"
+                    className="p-2"
+                    activeClassName="navbar__link--active"
+                  >
+                    Projects
+                  </NavLink>
+                  <NavLink
+                    onClick={this.closeNavbar}
+                    to="/contact"
+                    className="p-2"
+                    activeClassName="navbar__link--active"
+                  >
+                    Contact
+                  </NavLink>
+                </Nav>
+                <a
+                  onClick={this.closeNavbar}
+                  href="https://erikmoxley.wordpress.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-2"
+                >
+                  WordPress
+                </a>
+              </Collapse>
+            </Navbar>
+          </header>
+        </OutsideClickHandler>
+      </Styles>
+    );
+  }
+}
+
+// onClick={this.closeNavbar}
