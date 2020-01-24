@@ -24,47 +24,61 @@ export const Contact = props => (
     <Fade left big>
       <h2 class="contact-title">Contact</h2>
     </Fade>
+    <Fade top>
+      <div>
+        <ul>
+          <div class="p-1">
+            &nbsp;&nbsp;
+            <FontAwesomeIcon
+              icon={faMapMarkerAlt}
+              className="contact-icons"
+              color="black"
+              size="2x"
+            />
+            &nbsp; Currently residing in Lowell, MA.
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Located ~35-40 mins from Boston, MA.)
+          </div>
+        </ul>
+        <ul>
+          <div class="p-1">
+            &nbsp;&nbsp;
+            <FontAwesomeIcon
+              icon={faMobileAlt}
+              className="contact-icons"
+              color="black"
+              size="2x"
+            />
+            &nbsp; <a href="tel:+19789358860">1 (978) 935-8860</a>
+          </div>
+        </ul>
+        <ul>
+          <div class="p-1">
+            <FontAwesomeIcon
+              icon={faInbox}
+              className="contact-icons"
+              color="black"
+              size="2x"
+            />
+            &nbsp;
+            <a
+              href="mailto:VincentErikMoxley@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              VincentErikMoxley@gmail.com
+            </a>
+          </div>
+        </ul>
 
-    <div>
-      <ul>
-        &nbsp;&nbsp;
-        <FontAwesomeIcon
-          icon={faMapMarkerAlt}
-          className="contact-icons"
-          color="black"
-          size="2x"
-        />
-        &nbsp; Currently residing in Lowell, MA.
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Located ~35-40 mins from Boston, MA.)
-      </ul>
-      <ul>
-        &nbsp;&nbsp;
-        <FontAwesomeIcon
-          icon={faMobileAlt}
-          className="contact-icons"
-          color="black"
-          size="2x"
-        />
-        &nbsp; 1 (978) 935-8860
-      </ul>
-      <ul>
-        <FontAwesomeIcon
-          icon={faInbox}
-          className="contact-icons"
-          color="black"
-          size="2x"
-        />
-        &nbsp; VincentErikMoxley@gmail.com
-      </ul>
+        <hr className="contact-hr" />
+      </div>
 
-      <hr className="contact-hr" />
-    </div>
-
-    <p class="contact-message">
-      Feel free to contact me via information or social media in footer as the
-      functions in the forms are still under construction. Sorry for the
-      inconvenience.
-    </p>
+      <p class="contact-message">
+        Feel free to contact me via information or social media in footer as the
+        functions in the forms are still under construction. Sorry for the
+        inconvenience.
+      </p>
+    </Fade>
   </GridWrapper>
 );

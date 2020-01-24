@@ -1,15 +1,9 @@
 .navbar {
   display: flex;
-  justify-content: right;
-  align-items: right;
   border-radius: 8px;
   background-color: #00b7ff;
   text-transform: uppercase;
   text-decoration: none !important;
-}
-
-.navbrand {
-  text-transform: none;
 }
 
 .navbar__link {
@@ -22,6 +16,11 @@
   text-indent: 0.3em;
   color: #181818;
   border-bottom: 3px solid transparent;
+}
+
+.p-2 {
+  display: grid;
+  justify-content: center;
 }
 
 .navbar__link:hover {

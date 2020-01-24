@@ -28,7 +28,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
     <Navbar expand="md">
-      <Navbar.Brand className="navbrand" href="/">
+      <Navbar.Brand className="navBrand" href="/">
         E.M.
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />

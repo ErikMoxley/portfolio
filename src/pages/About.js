@@ -58,6 +58,18 @@ export const About = () => (
         <Button className="resumeButton" color="secondary" size="md">
           Resume
         </Button>
+        <NavLink
+          activeClass="active"
+          to="/projects"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
+          <Button className="findOutButton" color="secondary" size="md">
+            Portfolio
+          </Button>
+        </NavLink>
       </NavLink>
     </Fade>
   </GridWrapper>
