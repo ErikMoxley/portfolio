@@ -5,6 +5,7 @@ import "../../styles/Nav.css";
 import { Nav, Navbar } from "react-bootstrap";
 import { Collapse, NavbarToggler } from "reactstrap";
 import OutsideClickHandler from "react-outside-click-handler";
+import logobrand from "../../assets/logobrand.png";
 
 const Styles = styled.div`
   .navbar {
@@ -61,7 +62,14 @@ export default class NavigationBar extends React.Component {
           <header>
             <Navbar variant="dark" className="navigation__navbar" expand="md">
               <Navbar.Brand className="navBrand" href="/">
-                E.M.
+                <img
+                  className="logobrand"
+                  src={logobrand}
+                  alt=""
+                  align="middle"
+                  width="40px"
+                  height="40px"
+                />
               </Navbar.Brand>
 
               <NavbarToggler

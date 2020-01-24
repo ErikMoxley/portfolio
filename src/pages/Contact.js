@@ -35,9 +35,9 @@ export const Contact = props => (
               color="black"
               size="2x"
             />
-            &nbsp; Currently residing in Lowell, MA.
+            Currently residing in Lowell, MA.
             <br />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Located ~35-40 mins from Boston, MA.)
+            <span class="pl-4"></span>(~35-40 mins from Boston, MA.)
           </div>
         </ul>
         <ul>
@@ -49,7 +49,7 @@ export const Contact = props => (
               color="black"
               size="2x"
             />
-            &nbsp; <a href="tel:+19789358860">1 (978) 935-8860</a>
+            <a href="tel:+19789358860">1 (978) 935-8860</a>
           </div>
         </ul>
         <ul>
