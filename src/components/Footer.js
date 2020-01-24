@@ -22,8 +22,8 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <MDBFooter color="black" className="footer-bot pt-4 mt-4">
-      <MDBContainer fluid className="footer-container text-center text-md-left">
-        <MDBRow>
+      <MDBContainer fluid className="footerContainer text-center text-md-left">
+        <MDBRow className="footer-content1">
           <MDBCol className="footer-quote" md="3">
             <h5 className="footer-brand" md="3">
               Erik Moxley
@@ -33,7 +33,7 @@ const Footer = () => {
               <br />- Christopher Priest
             </p>
           </MDBCol>
-          <MDBCol className="footer-content1" md="3">
+          <MDBCol className="footer-content" md="3">
             <h5 className="title">Content</h5>
             <ul>
               <ul>
@@ -171,7 +171,7 @@ const Footer = () => {
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-      <div className="footer-content text-center py-3">
+      <div className="footer-bottom text-center py-3">
         <MDBContainer className="made-with" fluid>
           Content made possible with:<br></br>
           <FontAwesomeIcon icon={faHtml5} size="3x" />

@@ -124,3 +124,4 @@ export default class NavigationBar extends React.Component {
 }
 
 // onClick={this.closeNavbar}
+// Navbar variant="dark" or "light" to change icon shading.
