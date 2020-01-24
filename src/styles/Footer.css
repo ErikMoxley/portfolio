@@ -46,9 +46,16 @@
   .footer-content,
   .footer-social,
   .footer-container {
+    padding: 10px !important;
+    /* padding-left: 10px !important; */
+  }
+}
+@media screen and (max-width: 40em) {
+  .footer-quote,
+  .footer-content,
+  .footer-social,
+  .footer-container {
     text-align: center;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
   }
 }
 
