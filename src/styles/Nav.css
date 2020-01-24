@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  border-radius: 8px;
+  border-radius: 0px;
   background-color: #00b7ff;
   text-transform: uppercase;
   text-decoration: none !important;
