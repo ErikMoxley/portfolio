@@ -19,7 +19,7 @@ const GridWrapper = styled.div`
 export const Projects = props => (
   <GridWrapper className="gridWrap">
     <Fade left>
-      <h2>Projects</h2>
+      <h2>Projects (Work In-Progress!)</h2>
     </Fade>
     <Fade left>
       <div class="projectImage">

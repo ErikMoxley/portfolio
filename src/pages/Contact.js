@@ -75,8 +75,8 @@ export const Contact = props => (
       </div>
 
       <p class="contact-message">
-        Feel free to contact me via information or social media in footer as the
-        functions in the forms are still under construction. Sorry for the
+        Feel free to contact me via information or social media in footer as
+        I've not yet implemented nodemailer just yet. Sorry for the
         inconvenience.
       </p>
     </Fade>
