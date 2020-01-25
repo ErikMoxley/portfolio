@@ -35,9 +35,23 @@ export const Contact = props => (
               color="black"
               size="2x"
             />
-            Currently residing in Lowell, MA.
+            Currently residing in{" "}
+            <a
+              href="https://en.wikipedia.org/wiki/Lowell,_Massachusetts"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lowell, MA.
+            </a>
             <br />
-            <span class="pl-4"></span>(~35-40 mins from Boston, MA.)
+            <span class="pl-4"></span>
+            <a
+              href="https://www.google.com/maps/dir/?api=1&origin=Lowell+MA&destination=Boston+MA&travelmode=driving"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              (~35-40 mins from Boston, MA.)
+            </a>
           </div>
         </ul>
         <ul>

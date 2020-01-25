@@ -14,7 +14,8 @@ import {
   faLinkedin,
   faDiscord,
   faFacebook,
-  faWordpress
+  faWordpress,
+  faNpm
 } from "@fortawesome/free-brands-svg-icons";
 import { NavLink } from "react-router-dom";
 import "../styles/Footer.css";
@@ -180,6 +181,7 @@ const Footer = () => {
           <FontAwesomeIcon icon={faBootstrap} size="3x" />
           <FontAwesomeIcon icon={faFontAwesome} size="3x" />
           <FontAwesomeIcon icon={faReact} size="3x" />
+          <FontAwesomeIcon icon={faNpm} size="3x" />
         </MDBContainer>
         <MDBContainer fluid>
           &copy; {new Date().getFullYear()} Copyright: {"Erik Moxley"}
