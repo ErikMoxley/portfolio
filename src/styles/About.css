@@ -1,3 +1,21 @@
+.rowC {
+  display: flex;
+  flex-direction: row;
+}
+
+.modalButton {
+  margin-left: 1rem;
+  text-decoration: none;
+}
+@media screen and (max-width: 30em) {
+  .rowC,
+  .modalButton,
+  .portButton,
+  .resumeButton {
+    margin: 0.4px !important;
+  }
+}
+
 .er {
   display: block;
   margin-left: auto;
@@ -8,8 +26,8 @@
   float: left;
   opacity: 0.85;
 }
-.resumeButton {
-  margin-left: auto;
+.portButton {
+  margin-right: 1rem;
 }
 
 .aboutMe {

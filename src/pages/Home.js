@@ -5,7 +5,6 @@ import Fade from "react-reveal/Fade";
 import { NavLink } from "react-router-dom";
 import Typist from "react-typist";
 import "../styles/Home.css";
-import WorkModal from "../components/Modal";
 
 const GridWrapper = styled.div`
   margin-top: 2em;
@@ -15,7 +14,7 @@ const GridWrapper = styled.div`
 `;
 export const Home = props => (
   <GridWrapper className="gridWrap-Home">
-    <div id="top">
+    <div className="top">
       <Jumbotron className="jumbotron" fluid>
         <Container className="container" fluid>
           <Fade top big>
@@ -65,7 +64,6 @@ export const Home = props => (
                 </Button>
               </NavLink>
             </Fade>
-            <WorkModal />
           </p>
         </Container>
       </Jumbotron>

@@ -6,6 +6,7 @@ import { NavLink } from "react-router-dom";
 import er from "../assets/er.jpg";
 import resume from "../assets/Resume2020.pdf";
 import "../styles/About.css";
+import WorkModal from "../components/Modal.js";
 
 const GridWrapper = styled.div`
   margin-top: 2em;
@@ -44,20 +45,8 @@ export const About = () => (
         development in the near future.
       </p>
     </Fade>
-    <Fade bottom>
-      <NavLink
-        activeClass="active"
-        to={resume}
-        target="_blank"
-        rel="noopener noreferrer"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={400}
-      >
-        <Button className="resumeButton" color="secondary" size="md">
-          Resume
-        </Button>
+    <div className="rowC">
+      <Fade bottom>
         <NavLink
           activeClass="active"
           to="/projects"
@@ -66,11 +55,26 @@ export const About = () => (
           offset={-70}
           duration={400}
         >
-          <Button className="findOutButton" color="secondary" size="md">
+          <Button className="portButton" color="secondary" size="md">
             Portfolio
           </Button>
         </NavLink>
-      </NavLink>
-    </Fade>
+        <NavLink
+          activeClass="active"
+          to={resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          spy={true}
+          smooth={true}
+          offset={-70}
+          duration={400}
+        >
+          <Button className="resumeButton" color="secondary" size="md">
+            Resume
+          </Button>
+        </NavLink>
+        <WorkModal />
+      </Fade>
+    </div>
   </GridWrapper>
 );
