@@ -20,7 +20,7 @@ export const Home = props => (
           <Fade top big>
             <div className="Typist">
               <Typist className="hero" cursor={{ hideWhenDone: true }}>
-                HELLO, I'm
+                Hello, I'm
                 <Typist.Delay ms={100} />
                 <span className="eMox">
                   Eric K.
