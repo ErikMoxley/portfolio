@@ -27,22 +27,30 @@ export const About = () => (
         <img className="er" src={er} alt="" align="middle" />
         Hello, my name is Erik and I wish to make positive impacts in people's
         lives. I currently live in Lowell, Massachusetts. Born in Gloucester, MA
-        near the capes. My hobbies and passions include technology, gaming,
-        fantasy sports, dining out, watching movies in theaters and helping
-        people. My blogs will focus on these topics and will be located through
-        WordPress.
+        near the capes, some of my hobbies and passions include technology,
+        building and fixing PCs, gaming, fantasy sports, dining out, and
+        watching movies in theaters. My blogs will focus on these topics and
+        will be located through WordPress.
       </p>
       <p className="aboutMe">
-        I want to thank you for joining me as I learn and work towards becoming
-        a developer in the near future and hopefully an engineer later on. My
-        resume is filled with years of management and leadership experience in a
-        Pharmacy and Retail setting. Current languages, tools and technologies I
-        use are HTML5, CSS3, Sass, Javascript, Bootstrap, GatsbyJS, ReactJS,
-        Git, GitHub, WordPress.com, Command Line/Powershell with some exposure
-        to Jquery, NodeJS, MongoDB, some backend development. I currently deploy
-        my web projects with gh-pages and/or Netlify. My next steps are to
-        explore uses of different API's and become well rounded in full-stack
-        development in the near future.
+        I have a strong sense of curiosity of how things work, a drive to
+        succeed at whatever is placed in front of me and a work ethic that
+        compliments all of the above. Computers have always been a passion of
+        mine and in software development, I truely believe can be the gateway
+        towards expressing my passions and creativity. My back has always been
+        against the wall my entire life, and the desire to problem solve, help
+        people and show everyone that caring is my greatest strength will be all
+        of the motivation I'll have along the way.
+      </p>
+      <p className="aboutMe">
+        My resume is filled with years of management and leadership experience
+        in a Pharmacy and Retail setting. Current languages, tools and
+        technologies I use are HTML5, CSS3, Sass, Javascript, Bootstrap,
+        GatsbyJS, ReactJS, Git, GitHub, WordPress.com, Command Line/Powershell
+        with some exposure to Jquery, NodeJS, MongoDB, some backend development.
+        I currently deploy my web projects with gh-pages and/or Netlify. My next
+        steps are to explore uses of different API's and become well rounded in
+        full-stack development in the near future.
       </p>
     </Fade>
     <div className="rowC">
