@@ -80,7 +80,7 @@ export const Contact = props => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              VincentErikMoxley@gmail.com
+              Email Me via Gmail
             </a>
           </div>
         </ul>
