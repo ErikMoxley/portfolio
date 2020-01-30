@@ -63,7 +63,7 @@ export const Contact = props => (
               color="black"
               size="2x"
             />
-            <a href="tel:+19789358860">1 (978) 935-8860</a>
+            <a href="tel:+19789358860">Call via Phone</a>
           </div>
         </ul>
         <ul>
