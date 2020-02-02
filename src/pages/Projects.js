@@ -4,6 +4,8 @@ import "../styles/Projects.css";
 import logo from "../assets/logo.png";
 import gh from "../assets/gh.png";
 import Fade from "react-reveal/Fade";
+import ProjModal1 from "../components/Project1Modal";
+import ProjModal2 from "../components/Project2Modal";
 
 const GridWrapper = styled.div`
   display: grid;
@@ -24,9 +26,7 @@ export const Projects = props => (
     <Fade left>
       <div class="projectImage">
         <div class="hovereffect">
-          <a href="www.google.com" target="_blank" rel="noopener noreferrer">
-            <img src={logo} alt="Logo" class="center" />
-          </a>
+          <img src={logo} alt="Logo" class="center" />
           <div class="overlay">
             <h2>Portfolio in React</h2>
             <a
@@ -45,17 +45,16 @@ export const Projects = props => (
             >
               Code
             </a>
+            <ProjModal1 />
           </div>
         </div>
         <div class="hovereffect">
-          <a href="www.google.com" target="_blank" rel="noopener noreferrer">
-            <img src={gh} alt="Logo" class="center" />
-          </a>
+          <img src={gh} alt="Logo" class="center" />
           <div class="overlay">
-            <h2>GitHub</h2>
+            <h2>Lanxang w/ ReactJS</h2>
             <a
               class="info"
-              href="https://github.com/ErikMoxley"
+              href="https://lanxang.netlify.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -63,23 +62,22 @@ export const Projects = props => (
             </a>
             <a
               class="info"
-              href="https://github.com/ErikMoxley"
+              href="https://github.com/ErikMoxley/lanxang/"
               target="_blank"
               rel="noopener noreferrer"
             >
               Code
             </a>
+            <ProjModal2 />
           </div>
         </div>
         <div class="hovereffect">
-          <a href="www.google.com" target="_blank" rel="noopener noreferrer">
-            <img src={gh} alt="Logo" class="center" />
-          </a>
+          <img src={gh} alt="Logo" class="center" />
           <div class="overlay">
             <h2>GitHub</h2>
             <a
               class="info"
-              href="https://github.com/ErikMoxley"
+              href="https://github.com/ErikMoxley/"
               target="_blank"
               rel="noopener noreferrer"
             >
