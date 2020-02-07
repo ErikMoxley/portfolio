@@ -29,8 +29,7 @@ export const About = () => (
         lives. I currently live in Lowell, Massachusetts. Born in Gloucester, MA
         near the capes, some of my hobbies and passions include technology,
         building and fixing PCs, gaming, fantasy sports, dining out, and
-        watching movies in theaters. My blogs will focus on these topics and
-        will be located through WordPress.
+        watching movies in theaters.
       </p>
       <p className="aboutMe">
         I have a strong sense of curiosity of how things work, a drive to
