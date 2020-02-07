@@ -52,8 +52,14 @@ export default class ProjModal1 extends Component {
             <h4>Made With:</h4>
             <li>ReactJS</li>
             <li>HTML/CSS/Javacript</li>
+            <li>Styled Components</li>
             <li>Bootstrap</li>
-            <p>Testing Testing Testing</p>
+            <li>React NPM's</li>
+            <p>
+              - (Work in Progress) Portfolio page you are currently looking at
+              was made from scratch through ReactJS. Deployed through Netlify
+              via Github Pages.
+            </p>
           </div>
         </Modal>
       </div>

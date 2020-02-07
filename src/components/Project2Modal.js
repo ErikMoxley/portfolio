@@ -52,8 +52,16 @@ export default class ProjModal2 extends Component {
             <h4>Made With:</h4>
             <li>ReactJS</li>
             <li>HTML/CSS/Javacript</li>
+            <li>Styled Components</li>
             <li>Bootstrap</li>
-            <p>Testing Testing Testing Lanxang</p>
+            <li>NPM's such as react-router-dom and react-reveal</li>
+            <p>
+              - (Work in Progress) Lanxang is a website built from scratch using
+              ReactJS. Based on one of my favorite local restaurants in Dracut,
+              MA. Header and footer were inspired by other top restaurant
+              websites. Deployed through Netlify via Github Pages. Shopping cart
+              for online ordering interface coming soon.
+            </p>
           </div>
         </Modal>
       </div>
