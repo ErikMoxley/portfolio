@@ -56,9 +56,9 @@ export default class ProjModal1 extends Component {
             <li>Bootstrap</li>
             <li>React NPM's</li>
             <p>
-              - (Work in Progress) Portfolio page you are currently looking at
-              was made from scratch through ReactJS. Deployed through Netlify
-              via Github Pages.
+              - (Work in Progress) The single page application portfolio you are
+              currently looking at was made from scratch through ReactJS.
+              Deployed through Netlify via Github Pages.
             </p>
           </div>
         </Modal>
