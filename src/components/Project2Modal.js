@@ -64,7 +64,7 @@ export default class ProjModal2 extends Component {
               help me integrate an online ordering section of the site. May
               implement Firebase authentication/database to store user
               authentications as well as other features. The rest of the site's
-              content will follow after (e.g. menu, about, careers, etc.)
+              content will soon follow (e.g. menu, about, careers, etc.)
             </p>
           </div>
         </Modal>
