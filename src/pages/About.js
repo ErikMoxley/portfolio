@@ -35,7 +35,7 @@ export const About = () => (
         I have a strong sense of curiosity of how things work, a drive to
         succeed at whatever is placed in front of me and a work ethic that
         compliments all of the above. Computers have always been a passion of
-        mine and in software development, I truely believe can be the gateway
+        mine and in software development, I truly believe can be the gateway
         towards expressing my passions and creativity. My back has always been
         against the wall my entire life, and the desire to problem solve, help
         people and show everyone that caring is my greatest strength will be all

@@ -59,8 +59,12 @@ export default class ProjModal2 extends Component {
               - (Work in Progress) Lanxang is a website built from scratch using
               ReactJS. Based on one of my favorite local restaurants in Dracut,
               MA. Header and footer were inspired by other top restaurant
-              websites. Deployed through Netlify via Github Pages. Shopping cart
-              for online ordering interface coming soon.
+              websites. Deployed through Netlify via Github Pages. I am
+              currently learning about State Management and Redux in order to
+              help me integrate an online ordering section of the site. May
+              implement Firebase authentication/database to store user
+              authentications as well as other features. The rest of the site's
+              content will follow after (e.g. menu, about, careers, etc.)
             </p>
           </div>
         </Modal>
