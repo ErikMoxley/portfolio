@@ -4,7 +4,7 @@ import { Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import { NavLink } from "react-router-dom";
 import er from "../assets/er.jpg";
-import resume from "../assets/Resume2020.pdf";
+import resume from "../assets/Resume2020V2noname.pdf";
 import "../styles/About.css";
 import WorkModal from "../components/Modal.js";
 
