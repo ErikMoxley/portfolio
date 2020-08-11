@@ -76,7 +76,7 @@ export const About = () => (
           offset={-70}
           duration={400}
         >
-          <Button className="resumeButton" color="secondary" size="md">
+          <Button className="resumeButton" color="secondary" size="md" rel="nofollow">
             Resume
           </Button>
         </NavLink>
